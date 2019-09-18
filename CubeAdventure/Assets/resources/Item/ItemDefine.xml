@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Item>
+  <Equip>
+    <Code>1</Code>
+    <Name>허름한 신발</Name>
+    <Part>6</Part>
+    <Attack>0</Attack>
+    <Defence>5</Defence>
+    <Speed>0</Speed>
+    <Price>1111</Price>
+    <Text>허름하지만 신을만 하다.</Text>
+  </Equip>
+  <Equip>
+    <Code>2</Code>
+    <Name>목 늘어난 티셔츠</Name>
+    <Part>2</Part>
+    <Attack>2</Attack>
+    <Defence>2</Defence>
+    <Speed>2</Speed>
+    <Price>2222</Price>
+    <Text>자세히 보면 목이 늘어나 있는게 아니라 찢어져있다.</Text>
+  </Equip>
+  <Equip>
+    <Code>3</Code>
+    <Name>나무 방패</Name>
+    <Part>4</Part>
+    <Attack>0</Attack>
+    <Defence>7</Defence>
+    <Speed>0</Speed>
+    <Price>3333</Price>
+    <Text>이거 얻으려고 슬라임 잡았</Text>
+  </Equip>
+  <Equip>
+    <Code>4</Code>
+    <Name>나무 목검</Name>
+    <Part>3</Part>
+    <Attack>10</Attack>
+    <Defence>0</Defence>
+    <Speed>0</Speed>
+    <Price>4444</Price>
+    <Text>나무로 만든 검. 맞으면 아프다.</Text>
+  </Equip>
+  <Equip>
+    <Code>5</Code>
+    <Name>나무 막대기</Name>
+    <Part>3</Part>
+    <Attack>0</Attack>
+    <Defence>6</Defence>
+    <Speed>0</Speed>
+    <Price>3333</Price>
+    <Text>조금은 굵은 막대기.</Text>
+  </Equip>
+  <Equip>
+    <Code>6</Code>
+    <Name>가죽 신발</Name>
+    <Part>6</Part>
+    <Attack>0</Attack>
+    <Defence>1</Defence>
+    <Speed>2</Speed>
+    <Price>2222</Price>
+    <Text>여행하기 좋은 신발</Text>
+  </Equip>
+  <Equip>
+    <Code>7</Code>
+    <Name>가죽 조끼</Name>
+    <Part>2</Part>
+    <Attack>0</Attack>
+    <Defence>1</Defence>
+    <Speed>4</Speed>
+    <Price>2323</Price>
+    <Text>가죽으로 만든 조끼</Text>
+  </Equip>
+  <Equip>
+    <Code>8</Code>
+    <Name>방패</Name>
+    <Part>4</Part>
+    <Attack>4</Attack>
+    <Defence>0</Defence>
+    <Speed>0</Speed>
+    <Price>1211</Price>
+    <Text>겉은 철로 둘러져있다.</Text>
+  </Equip>
+  <Equip>
+    <Code>9</Code>
+    <Name>검</Name>
+    <Part>3</Part>
+    <Attack>0</Attack>
+    <Defence>4</Defence>
+    <Speed>0</Speed>
+    <Price>1121</Price>
+    <Text>날카로운 검</Text>
+  </Equip>
+  <Equip>
+    <Code>10</Code>
+    <Name>몽둥이</Name>
+    <Part>3</Part>
+    <Attack>0</Attack>
+    <Defence>0</Defence>
+    <Speed>4</Speed>
+    <Price>1112</Price>
+    <Text>맞으면 매우 아플 듯 하다.</Text>
+  </Equip>
+  <Recovery>
+    <Code>1</Code>
+    <Name>빨간 물약</Name>
+    <Hp>50</Hp>
+    <Mp>0</Mp>
+    <Price>50</Price>
+    <Text>빨간 액체가 들어있다.</Text>
+  </Recovery>
+  <Recovery>
+    <Code>2</Code>
+    <Name>파란 물약</Name>
+    <Hp>0</Hp>
+    <Mp>50</Mp>
+    <Price>50</Price>
+    <Text>파란 액체가 들어있다.</Text>
+  </Recovery>
+  <Other>
+    <Code>1</Code>
+    <Name>얇은 천</Name>
+    <Price>50</Price>
+    <Text>얇지만 조금은 거친 천 조각</Text>
+  </Other>
+  <Other>
+    <Code>2</Code>
+    <Name>뼈 조각</Name>
+    <Price>150</Price>
+    <Text>스켈레톤의 뼈 조각</Text>
+  </Other>
+  <Other>
+    <Code>3</Code>
+    <Name>녹슨 쇠</Name>
+    <Price>100</Price>
+    <Text>무기의 일부분이 떨어져 나왔다.</Text>
+  </Other>
+</Item>

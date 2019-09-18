@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MapInfo>
+  <Object>
+    <Name>ForestBlock01</Name>
+    <X>0</X>
+    <Y>0</Y>
+    <Z>0</Z>
+    <R>0</R>
+  </Object>
+  <Object>
+    <Name>ForestBlock01</Name>
+    <X>0</X>
+    <Y>0</Y>
+    <Z>-2</Z>
+    <R>0</R>
+  </Object>
+  <Object>
+    <Name>ForestBlock01</Name>
+    <X>2</X>
+    <Y>0</Y>
+    <Z>0</Z>
+    <R>0</R>
+  </Object>
+  <Object>
+    <Name>ForestBlock01</Name>
+    <X>2</X>
+    <Y>0</Y>
+    <Z>-2</Z>
+    <R>0</R>
+  </Object>
+  <Portal>
+    <Name>Red_Portal</Name>
+    <X>1.31304</X>
+    <Y>1.5</Y>
+    <Z>-1.331037</Z>
+    <LinkMapName>map2</LinkMapName>
+  </Portal>
+  <Npc>
+    <Name>Barbarian Wyder-Green</Name>
+    <X>0.1445708</X>
+    <Y>1</Y>
+    <Z>-2.459245</Z>
+    <R>0</R>
+  </Npc>
+  <Npc>
+    <Name>Barbarian Wyder-Blue</Name>
+    <X>0.112921</X>
+    <Y>1</Y>
+    <Z>-0.3193407</Z>
+    <R>120</R>
+  </Npc>
+  <Npc>
+    <Name>Barbarian Wyder-Gold</Name>
+    <X>2.161709</X>
+    <Y>1</Y>
+    <Z>-0.2458429</Z>
+    <R>195</R>
+  </Npc>
+  <Npc>
+    <Name>Barbarian Wyder-Red</Name>
+    <X>2.204583</X>
+    <Y>1</Y>
+    <Z>-2.285317</Z>
+    <R>300</R>
+  </Npc>
+</MapInfo>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Hero>
+  <SkillPoint>
+    <Point>3</Point>
+  </SkillPoint>
+  <Skill>
+    <No>1</No>
+    <Level>1</Level>
+  </Skill>
+  <Skill>
+    <No>2</No>
+    <Level>1</Level>
+  </Skill>
+</Hero>

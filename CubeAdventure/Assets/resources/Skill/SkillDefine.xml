@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Skill>
+  <Info>
+    <Number>1</Number>
+    <Name>공격력 강화</Name>
+    <Mp>10</Mp>
+    <CoolTime>1</CoolTime>
+    <Percent>50</Percent>
+  </Info>
+  <Info>
+    <Number>2</Number>
+    <Name>민첩 강화</Name>
+    <Mp>10</Mp>
+    <CoolTime>1</CoolTime>
+    <Percent>50</Percent>
+</Info>
+  <Info>
+    <Number>3</Number>
+    <Name>독 바르기</Name>
+    <Mp>15</Mp>
+    <CoolTime>2</CoolTime>
+    <Percent>20</Percent>
+  </Info>
+  <Info>
+    <Number>4</Number>
+    <Name>파이어 볼</Name>
+    <Mp>20</Mp>
+    <CoolTime>1</CoolTime>
+    <Percent>200</Percent>
+  </Info>
+  <Info>
+    <Number>5</Number>
+    <Name>방어력 강화</Name>
+    <Mp>10</Mp>
+    <CoolTime>1</CoolTime>
+    <Percent>50</Percent>
+  </Info>
+  <Info>
+    <Number>6</Number>
+    <Name>가시</Name>
+    <Mp>30</Mp>
+    <CoolTime>2</CoolTime>
+    <Percent>150</Percent>
+  </Info>
+</Skill>

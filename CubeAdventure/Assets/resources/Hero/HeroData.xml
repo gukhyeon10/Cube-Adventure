@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Hero>
+  <Info>
+    <Name>DB_Hero</Name>
+    <Level>0</Level>
+    <MaxHp>50</MaxHp>
+    <MaxMp>50</MaxMp>
+    <MaxExp>150</MaxExp>
+    <RemainHp>40</RemainHp>    
+    <RemainMp>30</RemainMp>
+    <RemainExp>50</RemainExp>
+    <STR>0</STR>
+    <DEX>0</DEX>
+    <SPD>0</SPD>
+    <SP>0</SP>
+  </Info>
+</Hero>
