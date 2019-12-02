@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EnemyPoolManager : MonoBehaviour {
     
+    // 적 몬스터 풀링 시스템 객체
     static private EnemyPoolManager _instance = null;
 
     static public EnemyPoolManager Instance

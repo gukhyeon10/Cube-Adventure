@@ -78,6 +78,7 @@ public class StatManager : MonoBehaviour {
         StartCoroutine(RecoveryCorutine());
 	}
 
+    //HP와 MP가 회복되는 자연스러운 연출
     IEnumerator RecoveryCorutine()
     {
         while(true)

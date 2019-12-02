@@ -14,6 +14,7 @@ public class DragIcon : MonoBehaviour {
         InitPosition = this.transform.position;    
     }
 
+    // 스킬아이콘 드래그
     public void DragSkill(string skillName)
     {
         Debug.Log(skillName);

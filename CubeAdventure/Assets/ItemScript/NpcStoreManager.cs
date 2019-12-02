@@ -50,6 +50,8 @@ public class NpcStoreManager : MonoBehaviour {
         Inventory.gameObject.SetActive(true);
     }
 
+    // 상점 닫기
+
     public void CloseStore()
     {
 

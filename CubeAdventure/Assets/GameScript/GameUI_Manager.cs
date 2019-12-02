@@ -88,7 +88,7 @@ public class GameUI_Manager : MonoBehaviour {
 
     }
 	
-
+    // 캐릭터 능력치 최신화
     public void StateDialogBarUpdate()
     {
         slider_StateDialogExpBar.value = (float)(StatManager.Instance.remainExp) / (float)(StatManager.Instance.maxExp);
@@ -96,7 +96,7 @@ public class GameUI_Manager : MonoBehaviour {
         slider_StateDialogMpBar.value = (float)StatManager.Instance.remainMp / (float)StatManager.Instance.maxMp;
     }
     
-
+    // 캐릭터 hp Bar 최신화
     public void UpdateHpBar()
     {
         if (isHpBarUpdate)
@@ -110,6 +110,7 @@ public class GameUI_Manager : MonoBehaviour {
         }
     }
 
+    // hp Bar 최신화
     IEnumerator HpBarUpdate()
     {
         isHpBarUpdate = true;
@@ -137,6 +138,7 @@ public class GameUI_Manager : MonoBehaviour {
         isHpBarUpdate = false;
     }
 
+    // 캐릭터 MP bar 최신화
     public void UpdateMpBar()
     {
         if(isMpBarUpdate)
@@ -149,6 +151,8 @@ public class GameUI_Manager : MonoBehaviour {
             StartCoroutine(MpBarUpdate());
         }
     }
+
+    //mp bar 최신화
     IEnumerator MpBarUpdate()
     {
         isMpBarUpdate = true;
@@ -177,6 +181,7 @@ public class GameUI_Manager : MonoBehaviour {
         isMpBarUpdate = false;
     }
 
+    // 캐릭터 경험치 최신화
     public void UpDateExpBar()
     {
         if (isExpBarUpdate)
@@ -189,6 +194,8 @@ public class GameUI_Manager : MonoBehaviour {
             StartCoroutine(ExpBarUpdate());
         }
     }
+
+    //경험치 최신화
     IEnumerator ExpBarUpdate()
     {
         isExpBarUpdate = true;
@@ -401,12 +408,14 @@ public class GameUI_Manager : MonoBehaviour {
         gb_TimeAttackResultPanel.GetComponent<AudioSource>().Play();
     }
 
+    // 타임어택 결과창 닫기
     public void CloseTimeAttackResult()
     {
         gb_TimeAttackResultPanel.SetActive(false);
         Time.timeScale = 1f;
     }
 
+    // 최종 보스 클리어 후 결과창 활성화
     public void GameClearNotice()
     {
         panel_GameClearNotice.gameObject.SetActive(true);
@@ -414,6 +423,7 @@ public class GameUI_Manager : MonoBehaviour {
         panel_GameClearNotice.GetComponent<AudioSource>().Play();
     }
 
+    // 게임 엔딩 결과창 닫기
     public void CloseGameClearNotice()
     {
         panel_GameClearNotice.gameObject.SetActive(false);

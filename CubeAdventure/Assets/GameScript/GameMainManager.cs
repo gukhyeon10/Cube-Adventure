@@ -287,6 +287,7 @@ public class GameMainManager : MonoBehaviour {
         StartCoroutine(TimeAttackLife());
     }
 
+    // 타임어택 
     IEnumerator TimeAttackLife()
     {
         HeroScript.Instance.timeAttackKillCount = 0;

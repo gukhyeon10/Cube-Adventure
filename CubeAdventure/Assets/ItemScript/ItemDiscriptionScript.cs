@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ItemDiscriptionScript : MonoBehaviour {
 
+    //아이템 설명 다이얼로그 활성화
     public void ActiveItemDescription(string ItemSpriteName)
     {
         string ItemKindName = ItemSpriteName.Substring(0, ItemSpriteName.Length - 3);
@@ -32,7 +33,7 @@ public class ItemDiscriptionScript : MonoBehaviour {
                     break;
                 }
         }
-        Debug.Log("아이템 설명 글을 보는중");
+        //Debug.Log("아이템 설명 글을 보는중");
         GameUI_Manager.Instance.ItemDescriptionInit(itemKind, itemCode);
     }
 

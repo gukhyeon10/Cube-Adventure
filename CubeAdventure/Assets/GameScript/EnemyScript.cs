@@ -52,7 +52,7 @@ public class EnemyScript : MonoBehaviour {
 
     }
     
-
+    // 리젠 시 초기화
     void OnEnable()
     {
         this.remainHp = this.maxHp;
@@ -148,6 +148,7 @@ public class EnemyScript : MonoBehaviour {
         isSkillAttacked = false;
     }
     
+    // 몬스터 리젠
     IEnumerator EnemyRegen()
     {
         this.GetComponent<CapsuleCollider>().enabled = false;
@@ -158,6 +159,7 @@ public class EnemyScript : MonoBehaviour {
         this.transform.position = initPosition;
     }
 
+    //적 몬스터 Hp Bar 위치 최신화
     void HpBarPosUpdate()
     {
         Vector2 screenPos = Camera.main.WorldToScreenPoint(this.transform.position);

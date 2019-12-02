@@ -78,12 +78,16 @@ public class SkillManager : MonoBehaviour {
         }
     }
 
+    //스킬 창 활성화
+
     public void SkillDialogActive()
     {
         NpcSkillDialog.gameObject.SetActive(!(NpcSkillDialog.gameObject.activeSelf));
         MySkillDialog.gameObject.SetActive(!(MySkillDialog.gameObject.activeSelf));
         isOpenSkill = !isOpenSkill;
     }
+
+    // 스킬 습득
 
     public void LearnSkill(string skillName)
     {
